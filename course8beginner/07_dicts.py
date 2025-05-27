@@ -29,3 +29,5 @@ print(my_dict.values())
 # Crear un dic con valores vacios
 my_new_dict = my_dict.fromkeys(("Nombres", 1))
 print(my_new_dict)
+my_new_dict = dict.fromkeys(my_dict)
+print(my_new_dict)
